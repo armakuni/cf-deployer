@@ -1,9 +1,11 @@
+# frozen_string_literal: true
+
 require 'bundler/gem_tasks'
 require 'rspec/core/rake_task'
 require 'rubocop/rake_task'
 
 namespace :spec do
-  [:unit, :integration, :systest].each do |spec_type|
+  %i[unit integration systest].each do |spec_type|
     desc "Run #{spec_type} tests"
     RSpec::Core::RakeTask.new(spec_type) do |t|
       t.pattern = "spec/#{spec_type}/**/*_spec.rb"

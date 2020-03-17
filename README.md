@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/armakuni/cf-deployer.png?branch=master)](https://travis-ci.org/bendodd/gloader)
+[![Build Status](https://travis-ci.org/armakuni/cf-deployer.png?branch=master)](https://travis-ci.org/armakuni/cf-deployer)
 
 # Cf::Deployer
 

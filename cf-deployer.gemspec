@@ -27,7 +27,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'guard-rake'
   spec.add_development_dependency 'guard-rubocop'
   spec.add_development_dependency 'pry'
-  spec.add_development_dependency 'rake', '~> 10.3'
+  spec.add_development_dependency 'rake', '~> 13.0'
   spec.add_development_dependency 'rb-fsevent'
   spec.add_development_dependency 'rb-inotify'
   spec.add_development_dependency 'rest-client'

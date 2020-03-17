@@ -29,7 +29,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'growl'
   spec.add_development_dependency 'rb-inotify'
   spec.add_development_dependency 'rb-fsevent'
-  spec.add_development_dependency 'rest_client'
+  spec.add_development_dependency 'rest-client'
   spec.add_development_dependency 'timecop'
   spec.add_development_dependency 'fakefs'
   spec.add_development_dependency 'webmock'

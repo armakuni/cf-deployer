@@ -34,7 +34,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rb-inotify'
   spec.add_development_dependency 'rest-client'
   spec.add_development_dependency 'rspec', '~> 3.10.0'
-  spec.add_development_dependency 'rubocop', '~> 1.1.0'
+  spec.add_development_dependency 'rubocop', '~> 1.2.0'
   spec.add_development_dependency 'thread_safe'
   spec.add_development_dependency 'timecop'
   spec.add_development_dependency 'webmock'

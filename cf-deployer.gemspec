@@ -40,5 +40,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'webmock'
 
   spec.add_dependency 'retryable', '3.0.5'
-  spec.add_dependency 'thor', '1.0.1'
+  spec.add_dependency 'thor', '1.1.0'
 end
